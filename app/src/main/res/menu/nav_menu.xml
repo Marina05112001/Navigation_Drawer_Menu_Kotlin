@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/menu_1"
+            android:id="@+id/menu_home"
+            android:icon="@drawable/on"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:title="@string/menu_2"
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/on"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:title="@string/menu_3"
+            android:id="@+id/menu_share"
+            android:icon="@drawable/on"
+            app:showAsAction="ifRoom"/>
+
+    </group>
+
+    <group>
+        <!--пример разделения категории. Линия с заголовком-->
+        <!--переменные также добавляем в string.xml-->
+        <item android:title="@string/razdelitel_category">
+            <menu>
+                <item
+                    android:title="@string/menu_4"
+                    android:id="@+id/menu_about"
+                    android:icon="@drawable/on"
+                    app:showAsAction="ifRoom"/>
+                <item
+                    android:id="@+id/menu_logout"
+                    android:icon="@drawable/on"
+                    android:title="Logout"/>
+            </menu>
+        </item>
+    </group>
+</menu>

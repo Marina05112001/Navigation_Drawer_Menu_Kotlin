@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Navigation_Drawer_Menu</string>
+    <string name="menu_1">Меню 1</string>
+    <string name="menu_2">Меню 2</string>
+    <string name="menu_3">Меню 3</string>
+    <string name="menu_4">Меню 4</string>
+    <string name="menu_5">Меню 5</string>
+    <string name="razdelitel_category">Категория 2</string>
+    <string name="open_drawer">Открыто меню</string>
+    <string name="close_drawer">Закрыто меню</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
